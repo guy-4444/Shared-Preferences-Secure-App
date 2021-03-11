@@ -11,5 +11,6 @@ public class App extends Application {
         super.onCreate();
 
         MSP.initHelper(this);
+        //MSP.initHelper(this, true);
     }
 }

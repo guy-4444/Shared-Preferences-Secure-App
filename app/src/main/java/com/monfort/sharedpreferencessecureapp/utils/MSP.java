@@ -45,7 +45,6 @@ public class MSP {
 
     private MSP(Context context, boolean isEncrypted) {
 
-
         try {
             if (!isEncrypted) {
                 prefs = context.getApplicationContext().getSharedPreferences("APP_SP", Context.MODE_PRIVATE);
