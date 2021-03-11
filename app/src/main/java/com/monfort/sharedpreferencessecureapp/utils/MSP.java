@@ -93,8 +93,8 @@ public class MSP {
         return prefs.getString(KEY, defValue);
     }
 
-    public void putDouble(String KEY, double defValue) {
-        putString(KEY, String.valueOf(defValue));
+    public void putDouble(String KEY, double value) {
+        putString(KEY, String.valueOf(value));
     }
 
     public double getDouble(String KEY, double defValue) {
